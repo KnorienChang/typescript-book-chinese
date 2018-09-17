@@ -10,7 +10,7 @@ TypeScript 了解到 JavaScript 中 `instanceof` 和 `typeof` 运算符的用法
 function doSome(x: number | string) {
   if (typeof x === 'string') {
     // 在这个块中，TypeScript 知道 `x` 的类型必须是 `string`
-    console.log(x.subtr(1)); // Error: 'subtr' 方法并没有存在于 `string` 上
+    console.log(x.substr(1)); // Error: 'subtr' 方法并没有存在于 `string` 上
     console.log(x.substr(1)); // ok
   }
 
