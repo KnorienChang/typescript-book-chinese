@@ -90,6 +90,7 @@ module.exports = {
           '/tips/bind',
           '/tips/curry',
           '/tips/typeInstantiation',
+          '/tips/lazyObjectLiteralInitialization',
           '/tips/classAreUseful',
           '/tips/avoidExportDefault',
           '/tips/limitPropertySetters',
@@ -98,7 +99,9 @@ module.exports = {
           '/tips/staticConstructors',
           '/tips/singletonPatern',
           '/tips/functionParameters',
-          '/tips/truthy'
+          '/tips/truthy',
+          '/tips/buildToggles',
+          '/tips/typesafeEventEmitter'
         ]
       },
       {
