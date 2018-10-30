@@ -156,12 +156,12 @@ const foo = <T>(x: T) => T; // Error: T 标签没有关闭
 **解决办法**：在泛型参数里使用 `extends` 来提示编译器，这是个泛型：
 
 ```ts
-const foo = <T extneds {}>(x: T) => x
+const foo = <T extends {}>(x: T) => x
 ```
 
 ### 类型断言
 
-正如我们之前[提到](../typings/typeAssertion.md#as-foo-与-foo)的，使用 `as Foo` 语法来进行类型断言。
+如我们之前[提到](../typings/typeAssertion.md#as-foo-与-foo)的，可以使用 `as Foo` 语法进行类型断言。
 
 ## 默认 Props
 
